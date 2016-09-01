@@ -1,0 +1,12 @@
+#ifndef FINDER_H
+#define FINDER_H
+
+class CFinder
+{
+public:
+  Finder(double* aValues)
+private:
+	double* iValues;
+};
+
+#endif

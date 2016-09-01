@@ -1,0 +1,14 @@
+#ifndef FINDER_H
+#define FINDER_H
+
+class CFinder
+{
+public:
+  CFinder(double* aValues);
+  ~CFinder();
+  double* findMaximumSubarray();
+private:
+	double* iValues;
+};
+
+#endif

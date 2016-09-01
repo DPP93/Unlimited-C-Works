@@ -1,0 +1,9 @@
+#ifndef FINDER_H
+#define FINDER_H
+
+class CFinder
+{
+
+};
+
+#endif

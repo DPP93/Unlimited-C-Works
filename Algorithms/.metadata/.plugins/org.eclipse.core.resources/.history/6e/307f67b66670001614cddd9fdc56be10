@@ -1,0 +1,31 @@
+/*
+ * Finder.cpp
+ *
+ *  Created on: 01.09.2016
+ *      Author: Daniel
+ */
+#include "Finder.h"
+
+template<typename T>
+int computeSizeOfArray(T aArray);
+
+double* CFinder::findMaximumSubarray(double* aValues)
+{
+  return nullptr;
+}
+
+double* CFinder::findMaximumCrossingSubarray(double* aValues, int left, int middle, int right)
+{
+  return nullptr;
+}
+
+double* CFinder::convertValuesToDifferences(double* aValues)
+{
+  return nullptr;
+}
+
+template<typename T>
+int computeSizeOfArray(T aArray)
+{
+  std:size_t oneElement = std::sizeof(T);
+}

@@ -13,6 +13,11 @@
 *.dylib
 *.dll
 
+.metadata/
+RemoteSystemsTempFiles/
+
+*.xml
+
 # Fortran module files
 *.mod
 *.smod

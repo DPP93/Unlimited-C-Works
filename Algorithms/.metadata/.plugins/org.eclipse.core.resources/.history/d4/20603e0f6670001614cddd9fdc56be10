@@ -1,0 +1,24 @@
+/*
+ * Finder.cpp
+ *
+ *  Created on: 01.09.2016
+ *      Author: Daniel
+ */
+#include "Finder.h"
+
+double* CFinder::findMaximumSubarray(double* aValues)
+{
+  return nullptr
+}
+
+double* CFinder::findMaximumCrossingSubarray(double* aValues, int left, int middle, int right)
+{
+  return nullptr;
+}
+
+double* CFinder::convertValuesToDifferences(double* aValues)
+{
+  return nullptr;
+}
+
+

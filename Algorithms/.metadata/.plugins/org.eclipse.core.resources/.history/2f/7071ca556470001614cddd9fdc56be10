@@ -1,0 +1,19 @@
+//============================================================================
+// Name        : FindMaximumSubarray.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Divide and Conquer algorithm, where we're finding the part
+// of array, which give us maximum value, for example, we've got an array
+// of actions of some company, one day is one value
+//
+//
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	return 0;
+}

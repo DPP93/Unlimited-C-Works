@@ -1,0 +1,15 @@
+#ifndef FINDER_H
+#define FINDER_H
+
+class CFinder
+{
+public:
+  double* findMaximumSubarray(double* aValues);
+
+private:
+  double* convertValuesToDifferences(double* aValues);
+  double* findMaximumCrossingSubarray();
+
+};
+
+#endif
