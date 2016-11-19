@@ -6,7 +6,7 @@
 int main( int argc, char** argv )
 {
   cv::Mat image;
-  image = cv::imread( argv[1], cv::IMREAD_COLOR );
+  image = cv::imread(argv[1], cv::IMREAD_COLOR);
 
   if( argc != 2 || !image.data )
     {
