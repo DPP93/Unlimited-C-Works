@@ -49,7 +49,21 @@ void addSaltAndPepperNoise(cv::Mat& imageToNoise, int numberOfPixelsToNoise) {
 		}
 
 	}
-
 }
+
+void reduceColorUsingPointers (cv::Mat& image, int div) {
+	int rows = image.rows;
+	int colums = image.cols * image.channels();
+
+	for (int x = 0; x < rows; ++x) {
+
+		uchar* data = image.ptr<uchar>(x);
+
+		for (int y = 0; y < colums; ++y) {
+			data[y] = (data[y]/div) * div + (div/2);
+		}
+	}
+}
+
 }
 }

@@ -10,6 +10,7 @@ namespace util {
 
 	void showImage (cv::Mat imageToShow, std::string windowName);
 	void addSaltAndPepperNoise (cv::Mat& imageToNoise, int numberOfPixelsToNoise);
+	void reduceColorUsingPointers (cv::Mat& image, int div = 64);
 }
 }
 
