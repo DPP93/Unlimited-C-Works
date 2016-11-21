@@ -65,5 +65,26 @@ void reduceColorUsingPointers (cv::Mat& image, int div) {
 	}
 }
 
+void reduceColorUsingIterators (cv::Mat& image, int div) {
+
+	if (image.channels() == 3) {
+		cv::Mat_<cv::Vec3b>::iterator iterator = image.begin<cv::Vec3b>();
+		cv::Mat_<cv::Vec3b>::iterator iteratorEnd = image.end<cv::Vec3b>();
+
+		while ( iterator != iteratorEnd) {
+
+			(*iterator)[0] = ((*iterator)[0] / div) * div + (div/2);
+			(*iterator)[1] = ((*iterator)[1] / div) * div + (div/2);
+			(*iterator)[2] = ((*iterator)[2] / div) * div + (div/2);
+
+			++iterator;
+		}
+
+	} else {
+		throw std::invalid_argument ("In this case image has to have 3 channels, sorry :( Try to use reduceColorUsingPointers");
+	}
+
+}
+
 }
 }
