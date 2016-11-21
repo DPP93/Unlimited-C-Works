@@ -8,8 +8,8 @@
 namespace mag{
 namespace util {
 
-	void showImage(cv::Mat imageToShow, std::string windowName);
-
+	void showImage (cv::Mat imageToShow, std::string windowName);
+	void addSaltAndPepperNoise (cv::Mat& imageToNoise, int numberOfPixelsToNoise);
 }
 }
 
