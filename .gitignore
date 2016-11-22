@@ -36,3 +36,6 @@ RemoteSystemsTempFiles/
 .settings/
 .cproject
 Debug/
+
+.idea
+.project
