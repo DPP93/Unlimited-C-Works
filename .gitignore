@@ -42,3 +42,6 @@ Debug/
 
 bin/
 build/
+
+*.idea
+*cmake-build*
